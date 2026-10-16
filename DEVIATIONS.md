@@ -58,3 +58,10 @@ The paper describes the environment only as a simplified Pong rendered as a 40x4
 ## Other changes
 
 -
+
+## Observation change (Oct 15)
+
+- The first build used frame/vector differences only, with no absolute positions. With eps decay 300 and 15 seeds, hits per episode went 0.38 -> 0.29 (p=0.021). The agent got worse.
+- Current default adds the current state to the difference (image: 2 channels; vector modes: current + diff concatenated). `--diff-only` restores the old behavior. This is my fix and is not confirmed against the paper's code (check OSF).
+- With absolute state (full, 15 seeds, eps decay 300): hits 0.44 -> 0.60 (p=0.043), aces 80% -> 71% (p=0.002), long rallies 4.3% -> 6.4% (p=0.09, not significant). Effect size varies between machines and seeds. Image mode has not been tested.
+- Epsilon decay was set to 300 steps for these tests (`--eps-decay-steps 300`). The code default is still 2000.
