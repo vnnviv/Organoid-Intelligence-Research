@@ -1,4 +1,4 @@
-# Rigor review of organoid intelligence research
+# Rigor Review of Organoid Intelligence Research
 
 This repo has two parts: the working files for a critical review of how rigorous organoid intelligence (OI) and biocomputing research is, and a Pong replication I am using to test the same ideas on one paper.
 
