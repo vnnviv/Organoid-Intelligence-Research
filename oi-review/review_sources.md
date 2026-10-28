@@ -1,6 +1,6 @@
-# OI critical review: sources in the screening workbook
+# OI review: sources
 
-Generated from the Screening_Log. Links are built from each record's identifier (DOI, PMC, PubMed, arXiv), except the five team seed papers and the grey-literature pages, which use the URLs from the OI Notes or the page itself. Spot-check a few before citing: some identifiers were typed from search output and not re-verified. The 113 excluded records and 11 duplicates are in the workbook's Screening_Log, not listed here.
+Built from the workbook's Screening_Log. Links come from each record's DOI, PMC, PubMed or arXiv ID. Some IDs were typed from search results and not re-checked, so spot-check before citing. Excluded records and duplicates are in the workbook.
 
 ## Included in scoring (41)
 

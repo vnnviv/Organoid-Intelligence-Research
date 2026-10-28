@@ -49,15 +49,15 @@ The paper describes the environment only as a simplified Pong rendered as a 40x4
 
 ## Results differences
 
-Replication column is the 50-seed run (full-state, absolute + diff input, epsilon decay 300), early = episodes 1-17, late = episodes 18-70. The paper's DQN numbers have not been entered; I have not yet compared against its reported results or the OSF code.
+50-seed run: full-state, current + diff input, epsilon decay 300, early = episodes 1-17, late = 18-70. I have not entered the paper's DQN numbers yet.
 
-| Metric | Paper (DQN) | Replication early -> late | Notes |
-|--------|-------------|---------------------------|-------|
-| Hits per rally | not yet compared | 0.41 -> 0.57 (p < 0.001) | Random policy: 0.28 |
-| % aces | not yet compared | 78.8 -> 72.3 (p = 0.001) | Random policy: 82%. Kagan et al. 2022 controls ace about 50%, so this environment is harder |
-| % long rallies | not yet compared | 4.1 -> 5.9 (p = 0.010) | I count >= 3 hits; the paper's threshold is more than 3, so mine is looser |
+| Metric | Paper (DQN) | Mine, early to late | Notes |
+|---|---|---|---|
+| Hits per rally | not compared | 0.41 to 0.57 | Random policy 0.28 |
+| % aces | not compared | 78.8 to 72.3 | Random 82%; Kagan controls about 50% |
+| % long rallies | not compared | 4.1 to 5.9 | I count 3+ hits, the paper counts more than 3 |
 
-Statistics: paired t-tests across seeds on early vs late means; seeds treated as independent; no multiple-comparison correction across the three metrics. No effect sizes or confidence intervals yet.
+Stats: paired t-tests across seeds, seeds treated as independent, no multiple-comparison correction, no effect sizes yet.
 
 ## Other changes
 

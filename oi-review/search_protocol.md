@@ -1,46 +1,40 @@
-# OI Critical Review: Search and Selection Protocol (v1, written before searching)
+# OI review: search and selection protocol (v1, written before searching)
 
-## Review question
-How well-supported are published computational, efficiency, and learning claims about brain organoids / neural cultures used as biological computing substrates (organoid intelligence, biocomputing, wetware)?
+**Question:** how well supported are published computational, efficiency and learning claims about brain organoids and neural cultures used as computing substrates (organoid intelligence, biocomputing, wetware)?
 
-## Sources
-- Paper index search (PubMed, bioRxiv, medRxiv, arXiv and others)
-- Citation chaining from the five seed papers (Kagan 2022, Cai 2023, Khajehnejad 2024/25, Jordan 2024, Smirnova 2023): citers, references, similar
-- Manual add: company white papers and preprints from Cortical Labs, FinalSpark, Unconventional AI (flagged as "grey literature")
+## Where I searched
+- Paper indexes: PubMed, bioRxiv, medRxiv, arXiv
+- Citation chaining from five seed papers (Kagan 2022, Cai 2023, Khajehnejad 2024/25, Jordan 2024, Smirnova 2023)
+- Company white papers and preprints (Cortical Labs, FinalSpark, Unconventional AI), flagged as grey literature
 
-## Search terms (run each as a separate framing)
+## Search terms
 1. organoid intelligence
-2. biological neural network computing / biocomputing / wetware
+2. biocomputing / wetware / biological neural network computing
 3. brain organoid reservoir computing
 4. in vitro neuronal culture closed-loop learning (DishBrain, Pong, MEA)
-5. energy efficiency of biological vs silicon computing, organoid
-6. ethics of organoid intelligence / sentience / consciousness in organoids
+5. energy efficiency, biological vs silicon computing, organoid
+6. ethics, sentience, consciousness in organoids
 
-## Date range
-2020-01-01 to 2026-10-22. (OI term coined 2022; earlier years are only for direct foundations found via citation chaining.)
+Date range: 2020-01-01 to 2026-10-22.
 
-## Inclusion criteria (all required)
-- I1. Uses living neural tissue (organoid, 2D culture, or assembloid) on an electrode or similar interface as a computational or learning substrate, OR is a review/roadmap that makes explicit claims about such systems.
-- I2. Makes at least one explicit claim in one of three categories: (a) computational performance, (b) learning/adaptation, (c) efficiency (energy, sample, or cost) relative to AI/silicon.
-- I3. Full text or sufficient abstract accessible to code the rubric items.
-- I4. English language.
+## Include (all required)
+- Living neural tissue (organoid, 2D culture, assembloid) on an electrode interface as a computing or learning substrate, or a review that makes explicit claims about such systems
+- At least one explicit claim about computational performance, learning, or efficiency (energy, sample, cost) vs AI or silicon
+- Enough text accessible to score the rubric
+- English
 
-## Exclusion criteria (record reason code)
-- E1. No computational/learning/efficiency claim (purely developmental, disease-modeling, or toxicology organoid work).
-- E2. Only mentions OI in passing.
-- E3. Duplicate or earlier version of an included paper (keep the version of record, note the preprint).
-- E4. Pure opinion/news with no evidence base and no explicit claims (kept separately as "claim propagation" sources, not scored).
-- E5. Hardware/AI-only work with no biological substrate.
-- E6. Outside date range.
-- E7. Full text not accessible.
+## Exclude (code recorded in the log)
+- E1 no computing, learning or efficiency claim
+- E2 passing mention of OI
+- E3 duplicate or earlier version
+- E4 opinion or news with no evidence (kept as claim-propagation sources, not scored)
+- E5 hardware or AI only, no biology
+- E6 outside date range
+- E7 full text unavailable
 
-## Handling of weak papers
-Selection is by "makes a claim," not by quality. Quality is scored after selection so low-rigor papers are not screened out.
+Papers are selected for making a claim, not for quality, so weak papers are not screened out. Quality is scored afterward.
 
-## Screening log
-Every record gets: ID, title, source, year, decision (include/exclude), reason code. Counts at each stage feed a PRISMA-style flow.
-
-## Known limitations
-- Search is index-based and not exhaustive; grey literature is added manually.
-- Seed papers were chosen by the team, not systematically; they are labeled as such.
-- Single screener at this stage; a second member should screen a random 20% for agreement.
+## Limits
+- Index search is not exhaustive, so grey literature is added by hand.
+- The seed papers were picked by the team, not systematically.
+- One screener so far. A second person should screen a random 20%.
