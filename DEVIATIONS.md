@@ -17,11 +17,11 @@ Log every place this replication differs from the paper or its released code. Ad
 
 | Item | Original | Replication | Reason |
 |------|----------|-------------|--------|
-| Episodes per run | 70 | | |
-| Seeds | 150 | | |
-| Input designs | image, paddle+ball position, ball position | | |
-| Algorithms | DQN, A2C, PPO | | |
-| Hyperparameters | per paper appendix A.4 | | |
+| Episodes per run | 70 | 70 | Same |
+| Seeds | 150 | 50 (headline run) | Fewer seeds; 15-seed runs were too noisy to cite |
+| Input designs | image, paddle+ball position, ball position | full-state vector evaluated; image runs but is unevaluated; ball mode smoke-tested only | Time |
+| Algorithms | DQN, A2C, PPO | DQN only | A2C and PPO not implemented |
+| Hyperparameters | per paper appendix A.4 | per appendix A.4 where stated; Adam, MSE, third conv layer and epsilon schedule are my choices | Paper silent |
 
 ## Code and data
 
@@ -40,20 +40,24 @@ The paper describes the environment only as a simplified Pong rendered as a 40x4
 - Paddle hit: ball reverses and the new vertical direction is re-randomized (+/-1). The paper does not say how angle changes.
 - Reward: +1 per step survived (episode length). The paper does not give its reward function in the text I read.
 - Episode = one rally. It ends at the first miss, or at a 1000-step cap that I added.
-- Observations: image = difference of the last two 40x40 frames. Full = 4-d [ball x, ball y, paddle top, paddle bottom] difference. Ball = 2-d [y segment 1-8, x] difference.
+- Observations (current default, see Oct 15 section): image = current frame plus difference of the last two frames (2 channels). Full = 4-d [ball x, ball y, paddle top, paddle bottom] current state concatenated with its difference. Ball = 2-d [y segment 1-8, x], same construction. The original diff-only build is available via `--diff-only`.
 - Network (image): 3 conv layers (1-16-32-32 channels, kernels 5/4/4, stride 2), then a 512-unit linear layer. The paper gives kernels {5,4}, stride 2, hidden 512; the third conv layer and channel counts are my guess.
 - Optimizer is Adam and loss is MSE. Neither is stated in the paper as far as I checked.
-- Epsilon-greedy decays linearly from 1.0 to 0.05 over 2000 steps. The schedule is my assumption.
+- Epsilon-greedy decays linearly from 1.0 to 0.05. The schedule is my assumption; code default is 2000 steps, results below use 300 (`--eps-decay-steps 300`).
 - Target network syncs every 10 environment steps; one gradient step per environment step once the buffer holds a batch.
 - Sanity check (random policy, 500 episodes): 0.28 mean hits, 82% aces, 2% long rallies. A hand-written tracking policy reaches the 1000-step cap.
 
 ## Results differences
 
-| Metric | Paper | Replication | Notes |
-|--------|-------|-------------|-------|
-| Hits per rally | | | |
-| % aces | | | |
-| % long rallies | | | |
+Replication column is the 50-seed run (full-state, absolute + diff input, epsilon decay 300), early = episodes 1-17, late = episodes 18-70. The paper's DQN numbers have not been entered; I have not yet compared against its reported results or the OSF code.
+
+| Metric | Paper (DQN) | Replication early -> late | Notes |
+|--------|-------------|---------------------------|-------|
+| Hits per rally | not yet compared | 0.41 -> 0.57 (p < 0.001) | Random policy: 0.28 |
+| % aces | not yet compared | 78.8 -> 72.3 (p = 0.001) | Random policy: 82%. Kagan et al. 2022 controls ace about 50%, so this environment is harder |
+| % long rallies | not yet compared | 4.1 -> 5.9 (p = 0.010) | I count >= 3 hits; the paper's threshold is more than 3, so mine is looser |
+
+Statistics: paired t-tests across seeds on early vs late means; seeds treated as independent; no multiple-comparison correction across the three metrics. No effect sizes or confidence intervals yet.
 
 ## Other changes
 

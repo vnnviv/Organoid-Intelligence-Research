@@ -1,4 +1,4 @@
-﻿# Pong replication: DQN baseline (Khajehnejad et al., 2024)
+# Pong replication: DQN baseline (Khajehnejad et al., 2024)
 
 Early-stage replication attempt of the DQN side of *Biological Neurons Compete with Deep Reinforcement Learning in Sample Efficiency in a Simulated Gameworld* (arXiv:2405.16946), which compares DishBrain neuron cultures to DQN/A2C/PPO on simplified Pong.
 
@@ -20,7 +20,9 @@ DQN, full-state input (ball and paddle positions), 70 episodes per run, 50 seeds
 
 ## Caveats
 
-- Effect size is modest and varies across machines and seeds (15-seed runs gave 0.38 -> 0.68 on one machine and 0.44 -> 0.60 on another; per-seed means range from about 0.2 to 1.5).
+- Effect size is modest and noisy: per-seed mean hits range from about 0.2 to 1.5, and short runs differ across machines (PyTorch builds drift over many training steps). Cite the 50-seed numbers only.
+- Chance level differs from the paper's setup: a random policy here gets 82% aces versus about 50% for the controls in Kagan et al. 2022, so compare changes, not absolute levels.
+- Stats are paired t-tests across seeds with no multiple-comparison correction, and no effect sizes or confidence intervals yet.
 - Epsilon decay of 300 steps, Adam, MSE loss, the third conv layer and the Pong dynamics are my choices, not taken from the paper.
 - Only the full-state vector input has been evaluated. Image mode runs but has not been evaluated. A2C, PPO and the DishBrain comparison are not implemented.
 
@@ -33,6 +35,10 @@ DQN, full-state input (ball and paddle positions), 70 episodes per run, 50 seeds
 - `dqn.py`: DQN training (hyperparameters from the paper's appendix)
 - `analyze.py`: the paper's three metrics, early vs late, plus a learning-curve plot
 - `DEVIATIONS.md`: every difference from the paper, with reasons
+
+## Related: OI rigor review
+
+The [oi-review](oi-review/) folder holds the rubric, search protocol, source list and scoring workbook for the organoid intelligence metascience review this replication feeds into. The workbook's scoring cells are mostly empty drafts, not final scores.
 
 ## Next
 
