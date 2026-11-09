@@ -1,0 +1,147 @@
+Validation (v2)
+x
+x
+
+Source,Track,Item,Tani,Gabe,Human flag,Human consensus,AI model 1 (paste last),Consensus vs AI 1,Notes / evidence,Paper ID,Draw order,AI model 2 (paste last)
+Information processing-like phenotype of human brain organoids,Empirical,SM,2,2,,2,1,,,doi:10.64898/2026.09.09.750433,1,1
+Information processing-like phenotype of human brain organoids,Empirical,UA,2,2,,2,2,,,doi:10.64898/2026.09.09.750433,1,2
+Information processing-like phenotype of human brain organoids,Empirical,CT,1,1,,1,1,,,doi:10.64898/2026.09.09.750433,1,2
+Information processing-like phenotype of human brain organoids,Empirical,CF,1,1,,1,1,,,doi:10.64898/2026.09.09.750433,1,1
+Information processing-like phenotype of human brain organoids,Empirical,EA,2,1,,2,2,,,doi:10.64898/2026.09.09.750433,1,2
+Information processing-like phenotype of human brain organoids,Empirical,RB,2,1,,2,2,,,doi:10.64898/2026.09.09.750433,1,2
+Information processing-like phenotype of human brain organoids,Empirical,TR,2,2,,2,UNCLEAR,,,doi:10.64898/2026.09.09.750433,1,2
+Information processing-like phenotype of human brain organoids,Empirical,CC,2,2,,2,2,,,doi:10.64898/2026.09.09.750433,1,2
+Brain organoid computing for robotic decision-making,Empirical,SM,1,0,,1,2,,,pmcid:PMC13596552,2,0
+Brain organoid computing for robotic decision-making,Empirical,UA,2,2,,2,2,,,pmcid:PMC13596552,2,2
+Brain organoid computing for robotic decision-making,Empirical,CT,1,1,,1,2,,,pmcid:PMC13596552,2,1
+Brain organoid computing for robotic decision-making,Empirical,CF,1,1,,1,2,,,pmcid:PMC13596552,2,0
+Brain organoid computing for robotic decision-making,Empirical,EA,0,0,,0,0,,,pmcid:PMC13596552,2,0
+Brain organoid computing for robotic decision-making,Empirical,RB,0,0,,0,0,,,pmcid:PMC13596552,2,0
+Brain organoid computing for robotic decision-making,Empirical,TR,0,1,,1,1,,,pmcid:PMC13596552,2,1
+Brain organoid computing for robotic decision-making,Empirical,CC,0,0,,0,1,,,pmcid:PMC13596552,2,0
+Synthetic biological intelligence: system-level abstractions and adaptive bio-digital interaction,Review,PS,2,0,,1,0,,,arxiv:2604.27933,3,1
+Synthetic biological intelligence: system-level abstractions and adaptive bio-digital interaction,Review,HR,1,1,,1,1,,,arxiv:2604.27933,3,1
+Synthetic biological intelligence: system-level abstractions and adaptive bio-digital interaction,Review,MP,2,2,,2,2,,,arxiv:2604.27933,3,2
+Synthetic biological intelligence: system-level abstractions and adaptive bio-digital interaction,Review,SR,2,1,,2,2,,,arxiv:2604.27933,3,2
+Synthetic biological intelligence: system-level abstractions and adaptive bio-digital interaction,Review,CC,1,1,,1,1,,,arxiv:2604.27933,3,1
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,SM,0,0,,0,0,,,pmcid:PMC11661084,4,0
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,UA,2,1,,1,1,,,pmcid:PMC11661084,4,1
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,CT,1,1,,1,1,,,pmcid:PMC11661084,4,1
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,CF,1,1,,1,2,,,pmcid:PMC11661084,4,1
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,EA,2,2,,2,2,,,pmcid:PMC11661084,4,2
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,RB,2,2,,2,2,,,pmcid:PMC11661084,4,2
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,TR,2,2,,2,2,,,pmcid:PMC11661084,4,1
+Goal-directed learning in cortical organoids (Cell Rep),Empirical,CC,2,2,,2,1,,,pmcid:PMC11661084,4,2
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,SM,1,0,,1,1,,,pmcid:PMC10288593,5,1
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,UA,0,0,,0,0,,,pmcid:PMC10288593,5,0
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,CT,1,1,,1,1,,,pmcid:PMC10288593,5,1
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,CF,2,1,,1,1,,,pmcid:PMC10288593,5,1
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,EA,NA,NA,,NA,1,,,pmcid:PMC10288593,5,1
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,RB,2,1,,2,2,,,pmcid:PMC10288593,5,2
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,TR,0,0,,0,0,,,pmcid:PMC10288593,5,0
+Biological neurons act as generalization filters in reservoir computing (PNAS),Empirical,CC,2,2,,2,2,,,pmcid:PMC10288593,5,2
+A computational perspective on NeuroAI and synthetic biological intelligence,Review,PS,0,0,,0,0,,,pmcid:PMC12632695,6,0
+A computational perspective on NeuroAI and synthetic biological intelligence,Review,HR,0,0,,0,0,,,pmcid:PMC12632695,6,0
+A computational perspective on NeuroAI and synthetic biological intelligence,Review,MP,1,1,,1,1,,,pmcid:PMC12632695,6,1
+A computational perspective on NeuroAI and synthetic biological intelligence,Review,SR,0,0,,0,0,,,pmcid:PMC12632695,6,0
+A computational perspective on NeuroAI and synthetic biological intelligence,Review,CC,0,0,,0,0,,,pmcid:PMC12632695,6,0
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,SM,1,1,,1,1,,,arxiv:2607.28068,7,2
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,UA,1,1,,1,0,,,arxiv:2607.28068,7,1
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,CT,2,2,,2,2,,,arxiv:2607.28068,7,2
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,CF,2,2,,2,2,,,arxiv:2607.28068,7,2
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,EA,2,1,,2,2,,,arxiv:2607.28068,7,2
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,RB,1,2,,2,2,,,arxiv:2607.28068,7,2
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,TR,2,1,,2,2,,,arxiv:2607.28068,7,1
+Stimulus-evoked network dynamics in human cortical organoids: graph-computational framework,Empirical,CC,1,1,,1,1,,,arxiv:2607.28068,7,1
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,SM,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,1
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,UA,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,CT,1,1,,1,1,,,doi:10.34133/cbsystems.0336,8,1
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,CF,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,EA,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,RB,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,TR,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"Khajehnejad et al. Dynamic network plasticity and sample efficiency in biological neural cultures: comparison with deep RL, Cyborg Bionic Syst",Empirical,CC,0,0,,0,0,,,doi:10.34133/cbsystems.0336,8,0
+"FinalSpark homepage (bioprocessor, energy claims)",Review,PS,1,1,,1,1,,,https://finalspark.com/,9,1
+"FinalSpark homepage (bioprocessor, energy claims)",Review,HR,2,2,,2,2,,,https://finalspark.com/,9,2
+"FinalSpark homepage (bioprocessor, energy claims)",Review,MP,1,1,,1,2,,,https://finalspark.com/,9,1
+"FinalSpark homepage (bioprocessor, energy claims)",Review,SR,1,1,,1,2,,,https://finalspark.com/,9,1
+"FinalSpark homepage (bioprocessor, energy claims)",Review,CC,2,2,,2,2,,,https://finalspark.com/,9,2
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,SM,0,0,,0,0,,,arxiv:2508.20850,10,0
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,UA,2,2,,2,2,,,arxiv:2508.20850,10,2
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,CT,2,2,,2,2,,,arxiv:2508.20850,10,2
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,CF,2,2,,2,2,,,arxiv:2508.20850,10,2
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,EA,NA,NA,,NA,2,,,arxiv:2508.20850,10,2
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,RB,0,0,,0,0,,,arxiv:2508.20850,10,1
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,TR,1,1,,1,1,,,arxiv:2508.20850,10,1
+Encoding tactile stimuli for Braille recognition with organoids,Empirical,CC,0,1,,0,0,,,arxiv:2508.20850,10,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,SM,1,1,,1,1,,,pmcid:PMC10469171,11,2
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,UA,0,0,,0,UNCLEAR,,,pmcid:PMC10469171,11,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,CT,0,0,,0,0,,,pmcid:PMC10469171,11,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,CF,0,0,,0,0,,,pmcid:PMC10469171,11,1
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,EA,NA,NA,,NA,0,,,pmcid:PMC10469171,11,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,RB,0,0,,0,0,,,pmcid:PMC10469171,11,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,TR,0,0,,0,0,,,pmcid:PMC10469171,11,0
+Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks,Empirical,CC,0,1,,0,0,,,pmcid:PMC10469171,11,0
+"The technology, opportunities, and challenges of synthetic biological intelligence (Biotechnol Adv)",Review,PS,0,0,,0,0,,,pmcid:PMC7615149,12,0
+"The technology, opportunities, and challenges of synthetic biological intelligence (Biotechnol Adv)",Review,HR,0,0,,0,0,,,pmcid:PMC7615149,12,0
+"The technology, opportunities, and challenges of synthetic biological intelligence (Biotechnol Adv)",Review,MP,0,0,,0,0,,,pmcid:PMC7615149,12,0
+"The technology, opportunities, and challenges of synthetic biological intelligence (Biotechnol Adv)",Review,SR,1,1,,1,0,,,pmcid:PMC7615149,12,0
+"The technology, opportunities, and challenges of synthetic biological intelligence (Biotechnol Adv)",Review,CC,1,1,,1,0,,,pmcid:PMC7615149,12,2
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,SM,1,1,,1,1,,,doi:10.64898/2026.10.15.759184,13,1
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,UA,0,0,,0,0,,,doi:10.64898/2026.10.15.759184,13,0
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,CT,2,0,,1,1,,,doi:10.64898/2026.10.15.759184,13,1
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,CF,1,1,,1,1,,,doi:10.64898/2026.10.15.759184,13,1
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,EA,1,1,,1,1,,,doi:10.64898/2026.10.15.759184,13,1
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,RB,0,0,,0,0,,,doi:10.64898/2026.10.15.759184,13,0
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,TR,0,1,,0,0,,,doi:10.64898/2026.10.15.759184,13,0
+HAL: goal-directed closed-loop training of network bursts in cortical cultures,Empirical,CC,2,2,,2,2,,,doi:10.64898/2026.10.15.759184,13,1
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,SM,2,2,,2,2,,,doi:10.1016/j.neuron.2022.09.001,14,2
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,UA,1,0,,1,1,,,doi:10.1016/j.neuron.2022.09.001,14,1
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,CT,1,1,,1,1,,,doi:10.1016/j.neuron.2022.09.001,14,1
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,CF,1,1,,1,1,,,doi:10.1016/j.neuron.2022.09.001,14,1
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,EA,1,0,,0,0,,,doi:10.1016/j.neuron.2022.09.001,14,0
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,RB,0,0,,0,0,,,doi:10.1016/j.neuron.2022.09.001,14,0
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,TR,2,2,,2,2,,,doi:10.1016/j.neuron.2022.09.001,14,1
+"Kagan et al. In vitro neurons learn and exhibit sentience when embodied in a simulated game-world (DishBrain), Neuron",Empirical,CC,2,2,,2,2,,,doi:10.1016/j.neuron.2022.09.001,14,2
+Organoid intelligence (OI): the ultimate functionality of a brain microphysiological system (ALTEX),Review,PS,0,0,,0,0,,,pmid:37009773,15,1
+Organoid intelligence (OI): the ultimate functionality of a brain microphysiological system (ALTEX),Review,HR,0,0,,0,0,,,pmid:37009773,15,1
+Organoid intelligence (OI): the ultimate functionality of a brain microphysiological system (ALTEX),Review,MP,0,0,,0,0,,,pmid:37009773,15,0
+Organoid intelligence (OI): the ultimate functionality of a brain microphysiological system (ALTEX),Review,SR,1,1,,1,1,,,pmid:37009773,15,1
+Organoid intelligence (OI): the ultimate functionality of a brain microphysiological system (ALTEX),Review,CC,1,0,,0,0,,,pmid:37009773,15,0
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,SM,2,2,,2,2,,,doi:10.64898/2026.09.08.750274,16,1
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,UA,2,2,,2,2,,,doi:10.64898/2026.09.08.750274,16,2
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,CT,2,2,,2,2,,,doi:10.64898/2026.09.08.750274,16,2
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,CF,1,0,,1,1,,,doi:10.64898/2026.09.08.750274,16,1
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,EA,NA,NA,,NA,2,,,doi:10.64898/2026.09.08.750274,16,2
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,RB,2,2,,2,2,,,doi:10.64898/2026.09.08.750274,16,2
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,TR,1,2,,2,1,,,doi:10.64898/2026.09.08.750274,16,2
+Harnessing the intrinsic dynamics of biological neural networks for reservoir computing,Empirical,CC,1,1,,1,2,,,doi:10.64898/2026.09.08.750274,16,0
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,SM,1,0,,1,1,,,doi:10.3389/frai.2024.1376042,17,1
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,UA,1,2,,1,1,,,doi:10.3389/frai.2024.1376042,17,1
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,CT,2,2,,2,2,,,doi:10.3389/frai.2024.1376042,17,2
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,CF,2,2,,2,2,,,doi:10.3389/frai.2024.1376042,17,2
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,EA,2,2,,2,2,,,doi:10.3389/frai.2024.1376042,17,2
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,RB,1,1,,1,1,,,doi:10.3389/frai.2024.1376042,17,2
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,TR,2,2,,2,2,,,doi:10.3389/frai.2024.1376042,17,2
+"Jordan et al. Open and remotely accessible Neuroplatform for research in wetware computing (FinalSpark), Front AI",Empirical,CC,2,2,,2,1,,,doi:10.3389/frai.2024.1376042,17,2
+InsightAce Analytic: Biocomputer Based on Organoids Market Size and Scope Analysis (market report),Review,PS,0,0,,0,0,,,manual:insightace-organoid-biocomputer-market,18,0
+InsightAce Analytic: Biocomputer Based on Organoids Market Size and Scope Analysis (market report),Review,HR,0,1,,1,UNCLEAR,,,manual:insightace-organoid-biocomputer-market,18,2
+InsightAce Analytic: Biocomputer Based on Organoids Market Size and Scope Analysis (market report),Review,MP,1,0,,0,0,,,manual:insightace-organoid-biocomputer-market,18,0
+InsightAce Analytic: Biocomputer Based on Organoids Market Size and Scope Analysis (market report),Review,SR,0,1,,1,1,,,manual:insightace-organoid-biocomputer-market,18,2
+InsightAce Analytic: Biocomputer Based on Organoids Market Size and Scope Analysis (market report),Review,CC,1,0,,1,0,,,manual:insightace-organoid-biocomputer-market,18,1
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,SM,0,0,,0,0,,,pmcid:PMC12357958,19,0
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,UA,0,0,,0,UNCLEAR,,,pmcid:PMC12357958,19,0
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,CT,0,1,,1,2,,,pmcid:PMC12357958,19,2
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,CF,0,0,,0,0,,,pmcid:PMC12357958,19,0
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,EA,0,0,,0,0,,,pmcid:PMC12357958,19,0
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,RB,0,0,,0,0,,,pmcid:PMC12357958,19,0
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,TR,0,0,,1,1,,,pmcid:PMC12357958,19,1
+Human neural organoid microphysiological systems show building blocks for basic learning and memory (Commun Biol),Empirical,CC,0,0,,0,0,,,pmcid:PMC12357958,19,0
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,SM,0,0,,0,0,,,doi:10.64898/2026.10.11.758231,20,0
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,UA,0,0,,0,0,,,doi:10.64898/2026.10.11.758231,20,0
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,CT,0,0,,0,0,,,doi:10.64898/2026.10.11.758231,20,0
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,CF,1,1,,1,0,,,doi:10.64898/2026.10.11.758231,20,1
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,EA,NA,NA,,NA,1,,,doi:10.64898/2026.10.11.758231,20,1
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,RB,0,0,,0,0,,,doi:10.64898/2026.10.11.758231,20,0
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,TR,0,1,,0,1,,,doi:10.64898/2026.10.11.758231,20,1
+PULSE: foundation model for brain organoid network dynamics reporting intrinsic computation,Empirical,CC,0,1,,0,0,,,doi:10.64898/2026.10.11.758231,20,0
