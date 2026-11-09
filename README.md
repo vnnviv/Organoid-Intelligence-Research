@@ -37,6 +37,7 @@ Not done:
 ## Files
 
 - `oi-review/OI_Critical_Review_Scoring_Sheet.xlsx`: snapshot of the live workbook (protocol, search log, screening, checks, validation, agreement, scoring, analysis). Contains no AI or rater scores
+- `oi-review/UPDATE_NOTES.md`: full notes on the November 2026 changes (method, rubric, validation, audit fixes, limits, next steps)
 - `oi-review/method_v1_2.md`: method, validation design, acceptance and routing rules, known limits
 - `oi-review/rubric_v1_2_checks.md`: rubric v1.2 draft (factual checks and scoring rules)
 - `oi-review/analysis/agreement.py`: agreement statistics and the acceptance decision; `test_data/` is synthetic
