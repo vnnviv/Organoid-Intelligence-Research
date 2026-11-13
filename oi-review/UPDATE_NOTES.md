@@ -2,6 +2,15 @@
 
 9 Nov 2026 · Vivian Chan
 
+## 12 Nov 2026 update
+
+- Merged pull request #1 (rubric v1.2, method notes, agreement.py, update notes) into main.
+- Ran PubMed S1 and arXiv S5 as planned: 1,723 and 23 records, 1,685 new after de-duplication against Screening_Log. Logged on Search_Log; records to screen are in the Drive sheet "OI_search_S1_S5_new_records_to_screen (2026-11-12)".
+- Search check: S1 finds 17 of the 19 known Includes that PubMed indexes. A revised string (Search_Log row 15, `search/S1_string_test.md`) finds 19 of 19 with 1,246 records; this is optimistic because two terms were added after seeing the misses. Cai 2023 and Smirnova 2023 are not in PubMed, so Scopus or Web of Science is required.
+- Added `analysis/run_ai.py`: builds the AI prompt from the Check_Items and Rubric_Anchors tabs, logs every call (model, settings, prompt SHA-256, date, raw reply), validates replies, and writes files that paste into the Checks and Validation tabs. Tested with a mock model only.
+- Drafted expert-review requests (not sent) and a Friday agenda with an RM 7 draft.
+- Open decision: Khajehnejad and Liu are validation sources and are also on the group reading list; discussing them before blind scoring would inflate rater agreement. Proposal: swap them for reserve sources 21 and 22.
+
 ## Summary
 
 The review now uses LLM-assisted rigor appraisal, validated against two blind human raters on 20 random sources. Rubric v1.2 (draft) turns eight items into factual checks scored by a fixed rule, which cuts most human scoring of the main corpus. Everything is built and tested with dummy data; nothing has been scored yet.
