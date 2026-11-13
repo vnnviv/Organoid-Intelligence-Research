@@ -1,0 +1,15 @@
+{
+ "S1": {
+  "date": "2026-11-12",
+  "string": "(\"organoid intelligence\"[tiab] OR \"synthetic biological intelligence\"[tiab] OR wetware[tiab] OR biocomput*[tiab] OR ((organoid*[tiab] OR \"neural culture*\"[tiab] OR \"neuronal culture*\"[tiab] OR \"cortical culture*\"[tiab] OR \"biological neural network*\"[tiab] OR \"multielectrode array*\"[tiab] OR \"microelectrode array*\"[tiab]) AND (\"reservoir comput*\"[tiab] OR \"reinforcement learning\"[tiab] OR \"closed-loop\"[tiab] OR \"goal-directed\"[tiab] OR \"sample efficien*\"[tiab] OR \"energy efficien*\"[tiab] OR \"machine learning\"[tiab] OR classif*[tiab] OR \"information processing\"[tiab]))) AND 2020/01/01:3000/12/31[dp]",
+  "count": 1723,
+  "fetched": 1722,
+  "translation": "(\"organoid intelligence\"[Title/Abstract] OR \"synthetic biological intelligence\"[Title/Abstract] OR \"wetware\"[Title/Abstract] OR \"biocomput*\"[Title/Abstract] OR ((\"organoid*\"[Title/Abstract] OR \"neural culture*\"[Title/Abstract] OR \"neuronal culture*\"[Title/Abstract] OR \"cortical culture*\"[Title/Abstract] OR \"biological neural network*\"[Title/Abstract] OR \"multielectrode array*\"[Title/Abstract] OR \"microelectrode array*\"[Title/Abstract]) AND (\"reservoir comput*\"[Title/Abstract] OR \"reinforcement learning\"[Title/Abstract] OR \"closed-loop\"[Title/Abstract] OR \"goal-directed\"[Title/Abstract] OR \"sample efficien*\"[Title/Abstract] OR \"energy efficien*\"[Title/Abstract] OR \"machine learning\"[Title/Abstract] OR \"classif*\"[Title/Abstract] OR \"information processing\"[Title/Abstract]))) AND 2020/01/01:3000/12/31[Date - Publication]"
+ },
+ "S5": {
+  "date": "2026-11-12",
+  "string": "abs:\"organoid intelligence\" OR abs:\"synthetic biological intelligence\" OR abs:wetware OR (abs:organoid AND (abs:\"reservoir computing\" OR abs:\"reinforcement learning\")) OR (abs:\"neuronal culture\" AND abs:learning) ; submitted 2020-01-01 onward (filtered after retrieval)",
+  "count_all_dates": 28,
+  "count_2020_on": 23
+ }
+}

@@ -40,6 +40,8 @@ Not done:
 - `oi-review/UPDATE_NOTES.md`: full notes on the November 2026 changes (method, rubric, validation, audit fixes, limits, next steps)
 - `oi-review/method_v1_2.md`: method, validation design, acceptance and routing rules, known limits
 - `oi-review/rubric_v1_2_checks.md`: rubric v1.2 draft (factual checks and scoring rules)
+- `oi-review/analysis/run_ai.py`: scripted, logged AI scoring runs
+- `oi-review/search/`: search scripts, run log and string test
 - `oi-review/analysis/agreement.py`: agreement statistics and the acceptance decision; `test_data/` is synthetic
 - `oi-review/search_protocol.md`: question, searches, include and exclude rules
 - `oi-review/rubric_scoring_anchors_v1.md`: what 0, 1 and 2 mean for each item
