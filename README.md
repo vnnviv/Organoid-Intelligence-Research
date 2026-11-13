@@ -11,32 +11,36 @@ OI claims that living neurons can compute or learn, sometimes more efficiently t
 - Do reviews and company pages keep the original authors' caveats, or drop them?
 - Has anyone outside the original team reproduced the result?
 
-## Where it stands
+## Where it stands (9 Nov 2026)
+
+Method: LLM-assisted rigor appraisal, validated against blind human raters. Details in [method_v1_2.md](oi-review/method_v1_2.md).
 
 Done:
-- Rubric v1, the scoring workbook, the search protocol, the screening log and the source list.
-- An AI pilot on four papers. It found eight unclear anchors and no sign that the rubric changes cause deflation. It is a diagnostic, not data.
-- Rubric v1.1 (draft) and an evaluation of it.
+- Rubric v1.1 (review-track items, tighter NA rule) and a v1.2 draft that splits items into factual checks scored by a fixed rule and judgment items with anchors ([rubric_v1_2_checks.md](oi-review/rubric_v1_2_checks.md)).
+- Reproducible search strings (Search_Log tab), 20-source random validation set, pre-set acceptance rule, and the analysis script ([agreement.py](oi-review/analysis/agreement.py)), tested on synthetic data.
+- An AI pilot on four papers (`oi-review/pilot/`). It is a diagnostic, not data, and its scores are not used.
 
 Not done:
-- Human scoring. Nobody has scored a paper blind yet, so agreement is unknown.
-- A second screener on a random 20%, and full-text checks of every Include and Maybe.
-- Citation chaining from the seed papers, and a second database (Google Scholar or Scopus).
-- OSF pre-registration.
+- Human revision of the anchors and checks, and ratings from 3 outside experts. Then freeze v1.2.
+- Running the database searches, second screener on 20%, citation chaining.
+- Blind human scoring of the 20 validation sources (Tani and Gabe) and the two AI runs.
+- OSF pre-registration, before any validation scores exist.
 
 ## Plan
 
-1. Blind human pilot: the same four papers, scored separately, then a short consensus meeting.
-2. Fix the anchors where raters differ by two points or more, then freeze the rubric and cut-offs.
-3. Pre-register on OSF.
-4. Score a core set of about 20 papers chosen by a written rule. One rater scores each paper, and a second rater double-scores about half.
-5. Report item profiles and domain scores. Tiers are descriptive and compared by rank thirds. The "determining factor" is exploratory.
-
-Open decisions: core set size, how much to double-score, and the pilot pass rule. See [the evaluation](oi-review/rubric_v1_1_evaluation.md).
+1. Human rewrite of anchors and checks; expert content-validity ratings; freeze rubric v1.2 and prompt AI-P1.1.
+2. Pre-register on OSF.
+3. Two AI models and two blind human raters score the 20 validation sources. `agreement.py` decides whether the AI is acceptable, using a non-inferiority margin of 0.15 on weighted kappa with a paper-level bootstrap.
+4. Main corpus: factual-check scores are auto-accepted only when both models agree and validation supports that item; every other score is verified by a person. A blind human audit of 15-20% checks the result.
+5. Report item profiles, not single totals.
 
 ## Files
 
-- `oi-review/OI_Critical_Review_Scoring_Sheet.xlsx`: screening log, scoring sheets, tiers, claims, analysis
+- `oi-review/OI_Critical_Review_Scoring_Sheet.xlsx`: snapshot of the live workbook (protocol, search log, screening, checks, validation, agreement, scoring, analysis). Contains no AI or rater scores
+- `oi-review/UPDATE_NOTES.md`: full notes on the November 2026 changes (method, rubric, validation, audit fixes, limits, next steps)
+- `oi-review/method_v1_2.md`: method, validation design, acceptance and routing rules, known limits
+- `oi-review/rubric_v1_2_checks.md`: rubric v1.2 draft (factual checks and scoring rules)
+- `oi-review/analysis/agreement.py`: agreement statistics and the acceptance decision; `test_data/` is synthetic
 - `oi-review/search_protocol.md`: question, searches, include and exclude rules
 - `oi-review/rubric_scoring_anchors_v1.md`: what 0, 1 and 2 mean for each item
 - `oi-review/review_sources.md`: papers in the screening log, with links

@@ -1,0 +1,103 @@
+title
+
+Paper ID,Source,Track,Rater,SM1 x,SM2 x,SM3 x,UA1 x,UA2 x,CT1 x,CF1 x,CF2 x,CF3 x,CF4 x,CF5 x,EA1 x,EA2 x,EA3 x,RB1 x,RB2 x,TR1 x,TR2 x,TR3 x,TR4 x,SR1 x,SR2 x,SR3 x
+p0,src0,Empirical,Tani,organoid,brain,N,N,Y,0,N,Y,N,Y,Y,N,none,Y,Y,N,N,Y,Y,Y,,,
+p0,src0,Empirical,Gabe,2D,2D,N,N,Y,0,N,Y,N,N,Y,N,none,Y,Y,N,N,Y,Y,Y,,,
+p0,src0,Empirical,Consensus,organoid,2D,N,N,Y,0,N,Y,N,N,Y,N,none,Y,Y,N,N,Y,Y,Y,,,
+p0,src0,Empirical,AI model 1,organoid,2D,N,N,N,0,N,Y,N,N,Y,N,none,Y,Y,N,N,N,Y,Y,,,
+p0,src0,Empirical,AI model 2,organoid,2D,N,N,Y,0,N,Y,N,N,Y,N,none,Y,Y,U,N,Y,Y,Y,,,
+p1,src1,Empirical,Tani,organoid,organoid,N,N,Y,3,N,N,Y,Y,Y,Y,partial,Y,Y,Y,N,Y,Y,Y,,,
+p1,src1,Empirical,Gabe,organoid,organoid,N,N,Y,3,N,N,Y,N,Y,Y,partial,Y,Y,N,N,Y,Y,Y,,,
+p1,src1,Empirical,Consensus,organoid,organoid,N,N,Y,3,N,N,Y,Y,Y,Y,partial,Y,Y,N,N,Y,Y,Y,,,
+p1,src1,Empirical,AI model 1,organoid,organoid,N,N,U,3,N,N,N,Y,Y,Y,partial,Y,Y,N,N,Y,Y,Y,,,
+p1,src1,Empirical,AI model 2,organoid,organoid,Y,N,Y,3,N,N,Y,Y,Y,Y,full,Y,Y,N,N,Y,Y,Y,,,
+p2,src2,Empirical,Tani,organoid,2D,N,N,Y,2,N,N,N,Y,U,N,partial,N,N,N,N,N,request,Y,,,
+p2,src2,Empirical,Gabe,organoid,2D,N,N,Y,2,N,N,N,Y,Y,N,partial,N,N,N,N,N,request,Y,,,
+p2,src2,Empirical,Consensus,organoid,2D,N,N,Y,2,N,N,N,Y,Y,N,partial,N,N,N,N,N,request,Y,,,
+p2,src2,Empirical,AI model 1,organoid,2D,N,N,Y,2,N,U,N,Y,Y,N,partial,N,Y,N,N,N,request,Y,,,
+p2,src2,Empirical,AI model 2,organoid,2D,N,N,Y,2,N,N,N,Y,Y,N,partial,N,N,Y,N,Y,Y,Y,,,
+p3,src3,Empirical,Tani,organoid,brain,N,N,N,2,Y,N,N,Y,Y,Y,partial,Y,Y,Y,N,N,N,request,,,
+p3,src3,Empirical,Gabe,organoid,brain,N,N,N,1,Y,Y,U,Y,Y,Y,partial,Y,Y,Y,N,N,N,request,,,
+p3,src3,Empirical,Consensus,organoid,brain,N,N,N,1,Y,N,N,Y,Y,Y,partial,Y,Y,Y,N,N,N,request,,,
+p3,src3,Empirical,AI model 1,organoid,brain,U,N,N,1,Y,N,N,Y,Y,Y,partial,U,Y,Y,N,N,request,request,,,
+p3,src3,Empirical,AI model 2,organoid,brain,U,N,N,1,Y,N,Y,Y,Y,Y,partial,Y,Y,Y,N,Y,N,request,,,
+p4,src4,Empirical,Tani,2D,brain,U,Y,Y,3,N,Y,N,Y,N,Y,none,Y,N,N,N,N,Y,N,,,
+p4,src4,Empirical,Gabe,2D,brain,N,Y,N,3,N,Y,N,Y,Y,Y,none,N,N,N,N,N,Y,N,,,
+p4,src4,Empirical,Consensus,2D,brain,N,Y,N,3,N,Y,N,Y,N,Y,none,N,N,N,N,N,Y,N,,,
+p4,src4,Empirical,AI model 1,2D,brain,N,Y,N,3,Y,U,N,Y,N,Y,none,N,N,N,N,N,Y,N,,,
+p4,src4,Empirical,AI model 2,2D,brain,N,U,N,3,N,Y,N,Y,N,Y,none,N,N,N,N,N,Y,N,,,
+p5,src5,Empirical,Tani,2D,2D,N,Y,Y,3,N,N,N,Y,N,N,partial,N,Y,N,Y,Y,Y,Y,,,
+p5,src5,Empirical,Gabe,2D,2D,N,Y,Y,1,N,N,N,Y,N,U,partial,N,Y,N,Y,Y,Y,Y,,,
+p5,src5,Empirical,Consensus,2D,2D,N,Y,Y,1,N,N,N,Y,N,N,partial,N,Y,N,Y,Y,Y,Y,,,
+p5,src5,Empirical,AI model 1,2D,2D,N,Y,Y,1,N,N,N,Y,N,N,partial,N,Y,N,Y,Y,Y,Y,,,
+p5,src5,Empirical,AI model 2,organoid,2D,N,Y,N,1,N,N,N,Y,N,N,partial,N,Y,N,Y,Y,Y,Y,,,
+p6,src6,Empirical,Tani,2D,brain,Y,N,Y,1,U,N,Y,N,Y,N,none,Y,N,N,N,N,request,Y,,,
+p6,src6,Empirical,Gabe,2D,brain,N,N,Y,1,Y,N,Y,N,Y,N,none,Y,N,N,Y,N,request,Y,,,
+p6,src6,Empirical,Consensus,2D,brain,Y,N,Y,1,Y,N,Y,N,Y,N,none,Y,N,N,N,N,request,Y,,,
+p6,src6,Empirical,AI model 1,2D,brain,Y,N,Y,1,Y,N,Y,N,Y,N,none,Y,N,N,N,N,request,Y,,,
+p6,src6,Empirical,AI model 2,2D,2D,Y,Y,Y,1,Y,N,N,N,Y,N,none,Y,N,N,N,N,request,Y,,,
+p7,src7,Empirical,Tani,2D,2D,Y,Y,Y,2,N,Y,U,Y,N,N,none,N,N,Y,N,Y,request,N,,,
+p7,src7,Empirical,Gabe,2D,2D,Y,Y,Y,2,N,Y,N,N,N,N,none,Y,N,Y,Y,Y,request,N,,,
+p7,src7,Empirical,Consensus,2D,2D,Y,Y,Y,2,N,Y,N,Y,N,N,none,N,N,Y,N,Y,request,N,,,
+p7,src7,Empirical,AI model 1,2D,2D,Y,Y,Y,1,N,Y,U,Y,N,N,none,N,N,N,N,Y,request,N,,,
+p7,src7,Empirical,AI model 2,2D,2D,Y,U,Y,2,N,Y,N,Y,N,N,none,N,N,Y,N,Y,request,Y,,,
+p8,src8,Empirical,Tani,2D,2D,N,U,Y,2,Y,N,N,N,N,N,partial,N,N,N,N,Y,request,N,,,
+p8,src8,Empirical,Gabe,2D,brain,N,N,Y,0,Y,N,N,N,N,N,partial,N,N,N,N,N,N,N,,,
+p8,src8,Empirical,Consensus,2D,2D,N,N,Y,2,Y,N,N,N,N,N,partial,N,N,N,N,Y,N,N,,,
+p8,src8,Empirical,AI model 1,organoid,2D,N,N,Y,2,Y,N,N,N,N,N,partial,N,N,N,N,Y,request,N,,,
+p8,src8,Empirical,AI model 2,2D,2D,N,N,Y,0,Y,N,N,N,N,N,partial,N,Y,N,N,Y,N,N,,,
+p9,src9,Empirical,Tani,organoid,brain,U,Y,N,3,Y,Y,Y,Y,Y,Y,partial,Y,Y,U,Y,N,N,N,,,
+p9,src9,Empirical,Gabe,organoid,brain,Y,Y,N,0,Y,Y,Y,Y,N,Y,partial,U,Y,N,Y,N,N,N,,,
+p9,src9,Empirical,Consensus,organoid,brain,Y,Y,N,3,Y,Y,Y,Y,N,Y,partial,Y,Y,N,Y,N,N,N,,,
+p9,src9,Empirical,AI model 1,organoid,brain,Y,Y,N,3,Y,Y,Y,Y,N,Y,partial,Y,Y,N,Y,N,Y,Y,,,
+p9,src9,Empirical,AI model 2,2D,brain,Y,Y,N,3,Y,Y,U,Y,N,Y,partial,Y,Y,N,Y,N,N,N,,,
+p10,src10,Empirical,Tani,2D,organoid,N,Y,N,2,N,Y,Y,U,N,Y,partial,N,N,N,N,Y,Y,N,,,
+p10,src10,Empirical,Gabe,2D,organoid,N,Y,N,2,N,Y,Y,Y,N,Y,partial,N,N,N,N,U,N,N,,,
+p10,src10,Empirical,Consensus,2D,2D,N,Y,N,2,N,Y,Y,Y,N,Y,partial,N,N,N,N,Y,N,N,,,
+p10,src10,Empirical,AI model 1,2D,2D,N,Y,N,2,N,Y,Y,Y,N,Y,partial,N,N,N,N,Y,N,N,,,
+p10,src10,Empirical,AI model 2,2D,2D,N,Y,N,2,N,Y,Y,Y,N,Y,partial,N,N,N,N,Y,N,N,,,
+p11,src11,Empirical,Tani,2D,organoid,N,N,Y,2,N,Y,Y,N,N,N,partial,N,N,Y,N,N,request,request,,,
+p11,src11,Empirical,Gabe,organoid,organoid,N,N,Y,2,N,Y,Y,N,N,N,partial,Y,N,Y,N,N,request,N,,,
+p11,src11,Empirical,Consensus,2D,organoid,N,N,Y,2,N,Y,Y,N,N,N,partial,Y,N,Y,N,N,request,request,,,
+p11,src11,Empirical,AI model 1,2D,organoid,N,N,Y,2,N,Y,Y,N,N,N,partial,Y,N,Y,N,N,request,request,,,
+p11,src11,Empirical,AI model 2,2D,organoid,N,N,Y,2,N,Y,Y,U,N,N,partial,Y,N,Y,N,N,request,request,,,
+p12,src12,Empirical,Tani,2D,brain,N,Y,N,2,N,N,Y,N,U,Y,none,N,N,N,N,Y,request,Y,,,
+p12,src12,Empirical,Gabe,2D,brain,N,Y,N,2,N,N,Y,N,Y,Y,none,N,N,N,N,Y,request,Y,,,
+p12,src12,Empirical,Consensus,2D,brain,N,Y,N,2,N,N,Y,N,Y,Y,none,N,N,N,N,Y,request,Y,,,
+p12,src12,Empirical,AI model 1,2D,brain,N,Y,N,2,N,N,Y,N,Y,Y,none,N,N,N,N,Y,request,Y,,,
+p12,src12,Empirical,AI model 2,organoid,brain,N,Y,N,2,N,N,Y,N,Y,Y,none,N,N,N,N,Y,request,Y,,,
+p13,src13,Empirical,Tani,2D,brain,Y,U,N,0,N,Y,N,Y,U,N,full,N,N,Y,N,Y,N,Y,,,
+p13,src13,Empirical,Gabe,2D,2D,U,Y,N,0,N,U,N,Y,N,N,full,N,N,Y,N,Y,N,Y,,,
+p13,src13,Empirical,Consensus,2D,brain,Y,Y,N,0,N,Y,N,Y,N,N,full,N,N,Y,N,Y,N,Y,,,
+p13,src13,Empirical,AI model 1,2D,brain,Y,Y,N,0,N,Y,N,Y,N,N,full,N,N,Y,N,Y,N,Y,,,
+p13,src13,Empirical,AI model 2,2D,brain,Y,Y,N,0,N,Y,N,Y,N,N,full,N,N,U,U,Y,N,Y,,,
+p14,src14,Review,Tani,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p14,src14,Review,Gabe,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p14,src14,Review,Consensus,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p14,src14,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p14,src14,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p15,src15,Review,Tani,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p15,src15,Review,Gabe,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p15,src15,Review,Consensus,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p15,src15,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p15,src15,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p16,src16,Review,Tani,,,,,,,,,,,,,,,,,,,,,N,N,N
+p16,src16,Review,Gabe,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p16,src16,Review,Consensus,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p16,src16,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p16,src16,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p17,src17,Review,Tani,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p17,src17,Review,Gabe,,,,,,,,,,,,,,,,,,,,,N,N,Y
+p17,src17,Review,Consensus,,,,,,,,,,,,,,,,,,,,,N,N,N
+p17,src17,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,N,N,U
+p17,src17,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,N,N,N
+p18,src18,Review,Tani,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p18,src18,Review,Gabe,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p18,src18,Review,Consensus,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p18,src18,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p18,src18,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,U,N,N
+p19,src19,Review,Tani,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p19,src19,Review,Gabe,,,,,,,,,,,,,,,,,,,,,Y,N,Y
+p19,src19,Review,Consensus,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p19,src19,Review,AI model 1,,,,,,,,,,,,,,,,,,,,,Y,N,N
+p19,src19,Review,AI model 2,,,,,,,,,,,,,,,,,,,,,Y,N,N
